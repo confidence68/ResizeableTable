@@ -1,0 +1,123 @@
+
+.lat_list_tablestyle{
+  .ant-table{
+    font-size:12px !important;
+  }
+  .react-resizable {
+    position: relative;
+    background-clip: padding-box !important;
+  }
+  .react-resizable-handle {
+    position: absolute;
+    width: 10px !important;
+    height: 100% !important;
+    bottom: 0 !important;
+    right: -5px !important;
+    cursor: col-resize !important;
+    z-index: 1 !important;
+  }
+  .statusIcon{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.25);
+    margin-right: 8px;
+    vertical-align: middle
+  }
+  
+  .greenStatusIcon{
+    background-color:#52C41A;
+  }
+  
+  .ant-table-thead{
+    font-family: "PingFangSC-Medium" !important;
+    font-size: 12px !important;
+    font-weight: 600;
+    text-align: left !important;
+    color: rgba(0,0,0,0.85) !important
+  }
+  
+  .ant-table-thead>tr>th, .ant-table-tbody>tr>td{
+    padding: 0px 12px;
+    height: 48px;
+    min-height: 48px;
+  }
+  .ant-table-tbody>tr>td{
+    color: rgba(0,0,0,.65);
+  }
+  .limitNum:hover{
+    .editLimitIconSpan{
+      display: inline-block;
+      margin-left: 8px;
+    }
+  }
+  .limitNum{
+    cursor:pointer
+  }
+  
+  .nameBox:hover{
+    .editIconSpan{
+      display: inline-block;
+      margin-left: 8px;
+    }
+  }
+  .editIconSpan{
+    display: none;
+  }
+
+
+  .editLimitIconSpan{
+    display: none;
+    color: #1890ff;
+  }
+
+  .ant-table-tbody>tr.ant-table-row-selected td{
+    background-color: #fff !important;
+  }
+
+  .batchSelect .ant-select .ant-select-enabled .ant-select-selection__placeholder{
+    color:rgba(0, 0, 0, 0.65) !important;
+  }
+  .batchSelect{
+    .ant-select-focused .ant-select-selection, .ant-select-selection:focus, .ant-select-selection:active{
+      border-color: #d9d9d9;
+      box-shadow: none;
+    }
+    .ant-select-selection:hover{
+      border-color: #d9d9d9;
+    }
+  }
+  .batchSelect.ant-select-disabled{
+    .ant-select-selection__placeholder{
+      color:rgba(0, 0, 0, 0.25) !important;
+    }
+  }
+  .batchSelect.ant-select-enabled{
+    .ant-select-selection__placeholder{
+      color:rgba(0, 0, 0, 0.65) !important;
+    }
+  }
+  .ellipsis2{
+    display: -webkit-box;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    /* autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    overflow: hidden;
+    display: -moz-box;
+    -moz-line-clamp: 2;
+  }
+  .errorMsgBox{
+    margin-bottom: 8px;
+    color: #F5222D;
+    line-height: 24px;
+    margin-left: 72px;
+    display: inline-block;
+  }
+
+}
+
+
